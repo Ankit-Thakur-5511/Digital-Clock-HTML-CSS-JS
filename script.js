@@ -15,7 +15,7 @@ function showTime() {
   h = h % 12;
   h = h ? h : 12; // the hour '0' should be '12'
   
-  //Add leading zeros to hours, minutes, and seconds using if-else
+ 
 if (h < 10) {
     h = "0" + h;
 } else {
